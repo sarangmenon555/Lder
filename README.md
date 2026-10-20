@@ -8,7 +8,7 @@ It is built for the many families in Keralam where parents live alone or with a 
 
 ## The problem
 
-Keralamm has the highest share of older people among Indian states, and many of them live alone or with a spouse while their children are abroad or in other cities. Families rely on irregular phone calls. A missed medicine, a fall or a quiet few days can go unnoticed until it is serious. A smartphone app is hard for an elderly person to learn, and reading and typing in English is not an option for many of them.
+Keralam has the highest share of older people among Indian states, and many of them live alone or with a spouse while their children are abroad or in other cities. Families rely on irregular phone calls. A missed medicine, a fall or a quiet few days can go unnoticed until it is serious. A smartphone app is hard for an elderly person to learn, and reading and typing in English is not an option for many of them.
 
 Lder asks the one thing a worried child would ask, in the language they would use, and it does not need the parent to learn anything new.
 
