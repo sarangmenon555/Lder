@@ -6,28 +6,6 @@ Lder asks an older person how they are, every day, as a short spoken question in
 
 It is built for the many families in Keralam where parents live alone or with a spouse while the children work in the Gulf or in other cities. It is a check-in aid, not a medical device and not an emergency service.
 
-## Contents
-
-1. [The problem](#the-problem)
-2. [What Lder does](#what-lder-does)
-3. [How it works](#how-it-works)
-4. [Technology and cost](#technology-and-cost)
-5. [Run it on your computer](#run-it-on-your-computer)
-6. [Deploy it for free (Render, Vercel, Supabase)](#deploy-it-for-free)
-7. [Deploy it all on Render instead](#option-b-both-services-on-render)
-8. [What the free tiers mean in practice](#what-the-free-tiers-mean-in-practice)
-9. [Configuration reference](#configuration-reference)
-10. [WhatsApp and email](#whatsapp-and-email)
-11. [Demo script](#demo-script)
-12. [Evaluation](#evaluation)
-13. [Tests](#tests)
-14. [Privacy and responsible design](#privacy-and-responsible-design)
-15. [API overview](#api-overview)
-16. [Troubleshooting](#troubleshooting)
-17. [Limitations](#limitations)
-18. [Project layout](#project-layout)
-19. [Sources to cite](#sources-to-cite)
-
 ## The problem
 
 Keralamm has the highest share of older people among Indian states, and many of them live alone or with a spouse while their children are abroad or in other cities. Families rely on irregular phone calls. A missed medicine, a fall or a quiet few days can go unnoticed until it is serious. A smartphone app is hard for an elderly person to learn, and reading and typing in English is not an option for many of them.
