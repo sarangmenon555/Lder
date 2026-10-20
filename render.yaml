@@ -1,0 +1,56 @@
+services:
+  - type: web
+    name: lder-api
+    runtime: python
+    plan: free
+    region: singapore
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: DATABASE_URL
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
+      - key: FRONTEND_BASE_URL
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ENCRYPTION_KEY
+        generateValue: true
+      - key: CRON_SECRET
+        generateValue: true
+      - key: ENABLE_SCHEDULER
+        value: "true"
+      - key: TICK_INTERVAL_MINUTES
+        value: "1"
+      - key: CLASSIFIER_MODEL
+        value: openai/gpt-oss-120b
+      - key: CLASSIFIER_REASONING_EFFORT
+        value: low
+      - key: STT_MODEL
+        value: whisper-large-v3
+      - key: STT_LANGUAGE
+        value: ml
+  - type: web
+    name: lder-web
+    runtime: node
+    plan: free
+    region: singapore
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 20.18.0
+      - key: NEXT_PUBLIC_API_URL
+        sync: false
