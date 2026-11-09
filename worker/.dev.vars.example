@@ -1,6 +1,0 @@
-ADMIN_PASSWORD=choose-a-password
-SECRET_KEY=long-random-string
-ENCRYPTION_KEY=another-long-random-string
-OTARI_API_KEY=otk_your_key
-GUARDRAIL_SECRET=long-random-string
-CRON_SECRET=long-random-string
