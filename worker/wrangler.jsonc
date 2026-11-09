@@ -13,7 +13,7 @@
     {
       "binding": "DB",
       "database_name": "lder",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "82b514bb-5ed8-44af-9b17-ed4a90b735be",
       "migrations_dir": "migrations"
     }
   ],
