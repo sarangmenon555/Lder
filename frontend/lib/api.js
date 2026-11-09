@@ -1,4 +1,5 @@
-const BASE = (process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8787").replace(/\/$/, "");
+const FALLBACK = process.env.NODE_ENV === "production" ? "" : "http://localhost:8787";
+const BASE = (process.env.NEXT_PUBLIC_API_URL ?? FALLBACK).replace(/\/$/, "");
 const TOKEN_KEY = "lder_token";
 
 export const apiBase = BASE;
