@@ -27,6 +27,7 @@
     "ENABLE_SCHEDULER": "true",
     "FRONTEND_BASE_URL": "",
     "PUBLIC_BASE_URL": "",
+    "OTARI_BASE_URL": "https://eu.api.otari.ai/api/v1",
     "STT_BASE_URL": "https://api.groq.com/openai/v1",
     "STT_MODEL": "whisper-large-v3",
     "SUMMARY_MODEL": "lder-summary"
