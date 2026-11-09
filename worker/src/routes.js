@@ -139,7 +139,8 @@ async function askRoute(app, request, elderId) {
     if (err.kind === "budget") throw new HttpError(402, "The AI usage limit for this person has been reached.");
     if (err.kind === "guardrail") throw new HttpError(400, "This question was blocked by a safety check.");
     if (err.kind === "config") throw new HttpError(503, "The AI gateway is not configured.");
-    throw new HttpError(502, "The assistant could not answer right now.");
+    console.warn("Assistant failed:", err.message);
+    throw new HttpError(502, `The assistant could not answer right now. (${String(err.message).slice(0, 240)})`);
   }
 }
 

@@ -59,29 +59,7 @@ export async function ask(app, elder, question) {
   }
   const models = modelChain(s.assistantModel, s.assistantFallbackModels);
   const url = mcpUrl(app);
-  let extra;
-  let userMessage;
-  let mode;
-  if (url) {
-    const token = await createScopedToken(s, elder.id, s.mcpTokenTtlSeconds);
-    extra = {
-      mcp_servers: [
-        {
-          name: "lder",
-          url,
-          authorization_token: token,
-          purpose_hint: `Read the check-in records of ${elder.name}`,
-          allowed_tools: TOOL_NAMES,
-        },
-      ],
-    };
-    userMessage = question;
-    mode = "mcp";
-  } else {
-    userMessage = `Check-in data:\n${await context(app, elder)}\n\nQuestion: ${question}`;
-    mode = "context";
-  }
-  try {
+  const call = async (mode, userMessage, extra) => {
     const [content, meta] = await otari.chat(s, {
       models,
       messages: [
@@ -95,6 +73,31 @@ export async function ask(app, elder, question) {
       extra,
     });
     return { answer: content.trim(), mode, gateway: meta };
+  };
+  const viaContext = async () => call("context", `Check-in data:\n${await context(app, elder)}\n\nQuestion: ${question}`);
+  try {
+    if (!url) return await viaContext();
+    const token = await createScopedToken(s, elder.id, s.mcpTokenTtlSeconds);
+    const extra = {
+      mcp_servers: [
+        {
+          name: "lder",
+          url,
+          authorization_token: token,
+          purpose_hint: `Read the check-in records of ${elder.name}`,
+          allowed_tools: TOOL_NAMES,
+        },
+      ],
+    };
+    try {
+      return await call("mcp", question, extra);
+    } catch (err) {
+      if (!(err instanceof otari.OtariError) || ["budget", "guardrail", "config"].includes(err.kind)) throw err;
+      console.warn("MCP attempt failed, retrying with data in the prompt:", err.message);
+      const result = await viaContext();
+      result.gateway = { ...result.gateway, mcp_error: err.message.slice(0, 300) };
+      return result;
+    }
   } catch (err) {
     if (err instanceof otari.OtariError) throw new AssistantError(err.message, err.kind);
     throw err;
