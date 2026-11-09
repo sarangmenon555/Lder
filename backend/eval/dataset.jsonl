@@ -1,0 +1,62 @@
+{"id": 1, "script": "ml", "text": "സുഖമാണ്, മരുന്ന് കഴിച്ചു", "label": "fine", "distress": false, "medicine": "yes"}
+{"id": 2, "script": "ml", "text": "ഞാൻ സുഖമായിരിക്കുന്നു. രാവിലെ ഗുളിക കഴിച്ചു", "label": "fine", "distress": false, "medicine": "yes"}
+{"id": 3, "script": "ml", "text": "എനിക്ക് കുഴപ്പമില്ല, ഇപ്പോൾ ചായ കുടിച്ചു", "label": "fine", "distress": false, "medicine": "unknown"}
+{"id": 4, "script": "manglish", "text": "sukhamanu, marunnu kazhichu", "label": "fine", "distress": false, "medicine": "yes"}
+{"id": 5, "script": "ml", "text": "ഇന്ന് നല്ല സുഖം തോന്നുന്നു. മകൻ വിളിച്ചിരുന്നു", "label": "fine", "distress": false, "medicine": "unknown"}
+{"id": 6, "script": "en", "text": "I am fine, took my tablet", "label": "fine", "distress": false, "medicine": "yes"}
+{"id": 7, "script": "ml", "text": "സുഖമാണ്. വേദനയില്ല", "label": "fine", "distress": false, "medicine": "unknown"}
+{"id": 8, "script": "ml", "text": "എല്ലാം ശരിയാണ്. ഭക്ഷണം കഴിച്ചു", "label": "fine", "distress": false, "medicine": "unknown"}
+{"id": 9, "script": "ml", "text": "സുഖം, നടക്കാൻ പോയി വന്നു", "label": "fine", "distress": false, "medicine": "unknown"}
+{"id": 10, "script": "ml", "text": "ഇന്ന് കുഴപ്പമൊന്നുമില്ല മോനേ", "label": "fine", "distress": false, "medicine": "unknown"}
+{"id": 11, "script": "ml", "text": "സുഖമാണ്, പക്ഷേ മരുന്ന് കഴിച്ചില്ല", "label": "fine", "distress": false, "medicine": "no"}
+{"id": 12, "script": "ml", "text": "ഗുളിക കഴിക്കാൻ മറന്നു", "label": "fine", "distress": false, "medicine": "no"}
+{"id": 13, "script": "manglish", "text": "marunnu kazhichilla, theernnu poyi", "label": "fine", "distress": false, "medicine": "no"}
+{"id": 14, "script": "en", "text": "I forgot my medicine today", "label": "fine", "distress": false, "medicine": "no"}
+{"id": 15, "script": "ml", "text": "മരുന്ന് തീർന്നു, കഴിച്ചില്ല", "label": "fine", "distress": false, "medicine": "no"}
+{"id": 16, "script": "ml", "text": "ഇന്ന് നല്ല ക്ഷീണം തോന്നുന്നു", "label": "unwell", "distress": false, "medicine": "unknown"}
+{"id": 17, "script": "ml", "text": "തല വേദന ഉണ്ട്, മരുന്ന് കഴിച്ചു", "label": "unwell", "distress": false, "medicine": "yes"}
+{"id": 18, "script": "ml", "text": "ചെറിയ പനി പോലെ തോന്നുന്നു", "label": "unwell", "distress": false, "medicine": "unknown"}
+{"id": 19, "script": "ml", "text": "വയ്യ, കിടക്കുകയാണ്", "label": "unwell", "distress": false, "medicine": "unknown"}
+{"id": 20, "script": "ml", "text": "ഇന്നലെ രാത്രി ഉറങ്ങാൻ പറ്റിയില്ല, ക്ഷീണമുണ്ട്", "label": "unwell", "distress": false, "medicine": "unknown"}
+{"id": 21, "script": "ml", "text": "കാലിന് വേദനയുണ്ട്, നടക്കാൻ പ്രയാസം", "label": "unwell", "distress": false, "medicine": "unknown"}
+{"id": 22, "script": "ml", "text": "ഞാൻ വീണു, എഴുന്നേൽക്കാൻ പറ്റുന്നില്ല", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 23, "script": "ml", "text": "നെഞ്ചുവേദനയുണ്ട്", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 24, "script": "ml", "text": "ശ്വാസം മുട്ടുന്നു", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 25, "script": "ml", "text": "തല കറങ്ങുന്നു, വീഴുമെന്ന് തോന്നുന്നു", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 26, "script": "ml", "text": "ആരെങ്കിലും സഹായിക്കണേ", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 27, "script": "manglish", "text": "veenu poyi, kaal anakkan pattunilla", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 28, "script": "en", "text": "I fell in the bathroom and my hip hurts", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 29, "script": "ml", "text": "ഒരുപാട് രക്തം വരുന്നു", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 30, "script": "ml", "text": "ബോധം പോകുന്നപോലെ തോന്നുന്നു", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 31, "script": "ml", "text": "ഇന്ന് രാവിലെ മുതൽ നെഞ്ചിൽ ഭാരം പോലെ, ശ്വാസം എടുക്കാൻ ബുദ്ധിമുട്ട്", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 32, "script": "ml", "text": "ഇന്ന് ഏത് ദിവസമാണ്? ആരാണ് നിങ്ങൾ?", "label": "confused", "distress": false, "medicine": "unknown"}
+{"id": 33, "script": "en", "text": "I don't know where I am", "label": "confused", "distress": false, "medicine": "unknown"}
+{"id": 34, "script": "ml", "text": "മകൻ എപ്പോഴാ വരുന്നത്? ഞാൻ ഭക്ഷണം കഴിച്ചോ എന്ന് ഓർക്കുന്നില്ല", "label": "confused", "distress": false, "medicine": "unknown"}
+{"id": 35, "script": "ml", "text": "നീ ആരാ? ഇത് എന്റെ വീടല്ലല്ലോ", "label": "confused", "distress": false, "medicine": "unknown"}
+{"id": 36, "script": "ml", "text": "ഉം... അത്... അറിയില്ല", "label": "unclear", "distress": false, "medicine": "unknown"}
+{"id": 37, "script": "ml", "text": "ഹലോ? ഹലോ?", "label": "unclear", "distress": false, "medicine": "unknown"}
+{"id": 38, "script": "ml", "text": "", "label": "unclear", "distress": false, "medicine": "unknown"}
+{"id": 39, "script": "hi", "text": "मैं ठीक हूँ, दवा ले ली", "label": "fine", "distress": false, "medicine": "yes"}
+{"id": 40, "script": "hi", "text": "आज थोड़ा बुखार है", "label": "unwell", "distress": false, "medicine": "unknown"}
+{"id": 41, "script": "hi", "text": "मैं गिर गया और उठ नहीं पा रहा", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 42, "script": "hi", "text": "सीने में दर्द हो रहा है", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 43, "script": "hi", "text": "सिर में दर्द है, दवा नहीं ली", "label": "unwell", "distress": false, "medicine": "no"}
+{"id": 44, "script": "hi", "text": "दर्द नहीं है, सब ठीक है", "label": "fine", "distress": false, "medicine": "unknown"}
+{"id": 45, "script": "ta", "text": "நான் நலமாக இருக்கிறேன், மாத்திரை சாப்பிட்டேன்", "label": "fine", "distress": false, "medicine": "yes"}
+{"id": 46, "script": "ta", "text": "காய்ச்சல் இருக்கு, தலை வலிக்குது", "label": "unwell", "distress": false, "medicine": "unknown"}
+{"id": 47, "script": "ta", "text": "நான் கீழே விழுந்துட்டேன்", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 48, "script": "ta", "text": "நெஞ்சு வலி இருக்கு", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 49, "script": "ta", "text": "வலி இல்லை, நல்லா இருக்கேன்", "label": "fine", "distress": false, "medicine": "unknown"}
+{"id": 50, "script": "ta", "text": "மாத்திரை சாப்பிடவில்லை, சோர்வா இருக்கு", "label": "unwell", "distress": false, "medicine": "no"}
+{"id": 51, "script": "te", "text": "నేను బాగున్నాను, మందు వేసుకున్నాను", "label": "fine", "distress": false, "medicine": "yes"}
+{"id": 52, "script": "te", "text": "జ్వరం ఉంది, ఒంట్లో బాగోలేదు", "label": "unwell", "distress": false, "medicine": "unknown"}
+{"id": 53, "script": "te", "text": "నేను కింద పడిపోయాను", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 54, "script": "te", "text": "ఛాతీ నొప్పి ఉంది", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 55, "script": "te", "text": "నొప్పి లేదు, బాగున్నాను", "label": "fine", "distress": false, "medicine": "unknown"}
+{"id": 56, "script": "te", "text": "మందు వేసుకోలేదు, నీరసంగా ఉంది", "label": "unwell", "distress": false, "medicine": "no"}
+{"id": 57, "script": "kn", "text": "ನಾನು ಚೆನ್ನಾಗಿದ್ದೇನೆ, ಔಷಧ ತೆಗೆದುಕೊಂಡೆ", "label": "fine", "distress": false, "medicine": "yes"}
+{"id": 58, "script": "kn", "text": "ಜ್ವರ ಇದೆ, ಹುಷಾರಿಲ್ಲ", "label": "unwell", "distress": false, "medicine": "unknown"}
+{"id": 59, "script": "kn", "text": "ನಾನು ಬಿದ್ದೆ", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 60, "script": "kn", "text": "ಎದೆ ನೋವು ಇದೆ", "label": "needs_help", "distress": true, "medicine": "unknown"}
+{"id": 61, "script": "kn", "text": "ನೋವು ಇಲ್ಲ, ಆರಾಮವಾಗಿದ್ದೇನೆ", "label": "fine", "distress": false, "medicine": "unknown"}
+{"id": 62, "script": "kn", "text": "ಔಷಧ ತೆಗೆದುಕೊಂಡಿಲ್ಲ, ಸುಸ್ತಾಗಿದೆ", "label": "unwell", "distress": false, "medicine": "no"}

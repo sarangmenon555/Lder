@@ -1,0 +1,37 @@
+{
+ "ml": {
+  "code": "ml",
+  "name": "Malayalam",
+  "native_name": "മലയാളം",
+  "voice": "ml-IN-SobhanaNeural",
+  "stt_prompt": "സുഖമാണ്. മരുന്ന് കഴിച്ചു. വേദന. വീണു. ശ്വാസം മുട്ടൽ."
+ },
+ "ta": {
+  "code": "ta",
+  "name": "Tamil",
+  "native_name": "தமிழ்",
+  "voice": "ta-IN-PallaviNeural",
+  "stt_prompt": "நலமாக இருக்கிறேன். மருந்து சாப்பிட்டேன். வலி. விழுந்துவிட்டேன். மூச்சு திணறல்."
+ },
+ "te": {
+  "code": "te",
+  "name": "Telugu",
+  "native_name": "తెలుగు",
+  "voice": "te-IN-ShrutiNeural",
+  "stt_prompt": "బాగున్నాను. మందు వేసుకున్నాను. నొప్పి. పడిపోయాను. ఊపిరి ఆడటం లేదు."
+ },
+ "hi": {
+  "code": "hi",
+  "name": "Hindi",
+  "native_name": "हिन्दी",
+  "voice": "hi-IN-SwaraNeural",
+  "stt_prompt": "मैं ठीक हूँ। दवा ले ली। दर्द है। गिर गया। सांस लेने में तकलीफ।"
+ },
+ "kn": {
+  "code": "kn",
+  "name": "Kannada",
+  "native_name": "ಕನ್ನಡ",
+  "voice": "kn-IN-SapnaNeural",
+  "stt_prompt": "ಚೆನ್ನಾಗಿದ್ದೇನೆ. ಔಷಧ ತೆಗೆದುಕೊಂಡೆ. ನೋವು. ಬಿದ್ದೆ. ಉಸಿರಾಡಲು ತೊಂದರೆ."
+ }
+}

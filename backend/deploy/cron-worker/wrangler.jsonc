@@ -1,0 +1,11 @@
+{
+  "name": "lder-cron",
+  "main": "worker.js",
+  "compatibility_date": "2025-11-01",
+  "triggers": {
+    "crons": ["* * * * *"]
+  },
+  "vars": {
+    "API_URL": "https://lder-api.onrender.com"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "lder-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "test": "node --test tests/unit.test.mjs tests/e2e.test.mjs",
+    "migrate": "wrangler d1 migrations apply lder --remote",
+    "migrate:local": "wrangler d1 migrations apply lder --local",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
