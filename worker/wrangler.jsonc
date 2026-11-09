@@ -21,14 +21,15 @@
     "crons": ["* * * * *"]
   },
   "vars": {
+    "ASSISTANT_MODEL": "lder-assistant",
+    "CLASSIFIER_MODEL": "lder-classifier",
+    "CORS_ORIGINS": "",
+    "ENABLE_SCHEDULER": "true",
     "FRONTEND_BASE_URL": "",
     "PUBLIC_BASE_URL": "",
-    "CORS_ORIGINS": "",
-    "CLASSIFIER_MODEL": "lder-classifier",
-    "SUMMARY_MODEL": "lder-summary",
-    "ASSISTANT_MODEL": "lder-assistant",
+    "STT_BASE_URL": "https://api.groq.com/openai/v1",
     "STT_MODEL": "whisper-large-v3",
-    "ENABLE_SCHEDULER": "true"
+    "SUMMARY_MODEL": "lder-summary"
   },
   "observability": { "enabled": true }
 }
